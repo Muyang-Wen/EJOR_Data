@@ -20,9 +20,8 @@ For each instance, the workbook provides task and worker information, precedence
 
 - **`Instances`**: identifiers, dimensions, replicate numbers, random seeds, and summary statistics for all 660 instances.
 - **`Process_Dictionary`**: canonical laptop assembly tasks and production phases.
-- **`Tasks`**: task descriptions, production phases, predecessor/successor information, and processing-time bounds.
+- **`Tasks`**: task descriptions, production phases, and processing-time bounds.
 - **`Workers`**: worker identifiers and synthetic worker profiles.
-- **`Precedence_Arcs`**: directed precedence relationships between tasks.
 - **`Processing_Matrix_Rows`**: worker-dependent processing-time matrices encoded row by row.
 - **`Setup_Matrix_Rows`**: sequence-dependent setup-time matrices encoded row by row.
 
